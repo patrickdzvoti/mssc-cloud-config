@@ -6,5 +6,9 @@ spring:
       server:
         git:
           uri: https://github.com/patrickdzvoti/beer-config-repo
-      username: MyUserName
+          passphrase: Tadiwa
+
+  security:
+    user:
+      name: MyUserName
       password: MySecretPassword
